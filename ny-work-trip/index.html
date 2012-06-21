@@ -78,80 +78,38 @@
 					</SECTION>
 				</section>
 
-				<section>
-					<h2>Question everything...</h2>
-					<img width= "800" height="412" src="img/dontdoit.png">
-				</section>
 				
-				
-				
-				<section>
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like:
-					</p>
-					<ul>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=cube">Cube</a></li>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=page">Page</a></li>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=concave">Concave</a></li>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=linear">Linear</a></li>
-					</ul>
-				</section>
 
-				
 				<section>
 					<section data-state="alert">
-						<h2>Global State</h2>
-						<p>
-							Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-							will be added as a class to the document element when the slide is open. This let's you
-							apply broader style changes, like switching the background.
-						</p>
-						<a href="#/7/1" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						</a>
+						<h2>Trollface warning!</h2>
+						<img height = "450" src="img/trollface.jpg">
 					</section>
-					<section data-state="blackout">
-						<h2>"blackout"</h2>
-						<a href="#/7/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						</a>
+					<section>
+						<img src="img/heartland.jpg">
 					</section>
 					<section data-state="soothe">
-						<h2>"soothe"</h2>
-						<a href="#/7/0" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" style="-webkit-transform: rotate(180deg);">
-						</a>
+						<h2> Dmitri representz..</h2>
+
+						<p>tried 11 custom beers in 3 hours timeframe</p>
+
+						<h3><br/> Estonia 1 : 0 USA </h3>
 					</section>
 				</section>
-
+				
 				<section>
-					<h2>Pretty Code</h2>
-					<pre><code contenteditable>
-var supports3DTransforms =  document.body.style['webkitPerspective'] !== undefined || 
-				document.body.style['MozPerspective'] !== undefined ||
-				document.body.style['perspective'] !== undefined;
+					<section>
+						<h2>One sandwich is all you need!</h2>
+						<img width= "800" height="450" src="img/sandwich.png">
 
-function linkify( selector ) {
-    if( supports3DTransforms ) {
-        
-        var nodes = document.querySelectorAll( selector );
-
-        for( var i = 0, len = nodes.length; i < len; i++ ) {
-            var node = nodes[i];
-
-            if( !node.className || !node.className.match( /roll/g ) ) {
-                node.className += ' roll';
-                node.innerHTML = '<span data-title="'+ node.text +'">' + node.innerHTML + '</span>';
-            }
-        };
-    }
-}
-
-linkify( 'a' );
-					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+					</section>
+					<section>
+						<h2>OR...</h2>
+						<img width= "800" height="412" src="img/dontdoit.png">
+					</section>
+					
 				</section>
+	
 				
 				<section>
 					<h2>Intergalactic Interconnections</h2>
@@ -220,10 +178,6 @@ linkify( 'a' );
 				query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
 			} );
 
-			// Fires when a slide with data-state=customevent is activated
-			Reveal.addEventListener( 'customevent', function() {
-				alert( '"customevent" has fired' );
-			} );
 
 			// Fires each time a new slide is activated
 			Reveal.addEventListener( 'slidechanged', function( event ) {
@@ -250,10 +204,10 @@ linkify( 'a' );
 				rollingLinks: true,
 
 				// UI style
-				theme: query.theme || 'default', // default/neon
+				theme: query.theme || 'neon', // default/neon
 
 				// Transition style
-				transition: query.transition || 'default' // default/cube/page/concave/linear(2d)
+				transition: query.transition || 'linear(2d)' // default/cube/page/concave/linear(2d)
 			});
 
 			hljs.initHighlightingOnLoad();
