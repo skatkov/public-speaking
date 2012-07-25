@@ -1,0 +1,381 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"u",
+				"UL	Tag"
+			],
+			[
+				"le",
+				"lenght"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"field",
+				"fieldId"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"active",
+				"activeElement"
+			],
+			[
+				"last",
+				"lastFocusedTextarea"
+			],
+			[
+				"left",
+				"leftScreen"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"select",
+				"selectTextArea"
+			],
+			[
+				"lef",
+				"leftVal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Вступление\n-- Титульный тайтл\n\nОтвечать молча - поднятыми руками.\n-- Список профессий с линкдина \nзаноза в жопе у меня - поэтому ищу где удобней посидеть. :))\n\n-- Описание проблемы\n- Много народу и никто друг с другом не работает\n- Люди сидят в четырех разных городах\n\n--\nТехнические проблемы - решаемы.\nПроблемы взаимоотношений - хреново решаются.\n\nАшманов\n--\nЛюди с iq эйнштейна правы в 45% случаев.\n\n--\nСейчас глупо обвинять из-за не знания стихов Путина. Но и требовать\n\n-- Некоторые метрики в тестировании ничего не дают\nКоличество пройденых тест кейсов? WTF?\nПокрытие юнит тестами? И чо?\nСколько у вас там открытых багов в системе? А если их станет на 1\\3 меньше, что-то изменится?\n\nВ разультате: всем похуй на метрику - она ничего не говорит.\n\n-- Как же понять код хорош?\n- Lint\n- Static Code Analyzers\n- Coding guidelines\n- Unit testing\n- Functional and/or Intergration testing\n- P2P review\n\n-- Эти проблемы может решить jenkins\nСписок с примерами плагинов - css lint, static code analyzers, jslint, \n\n-- Открытая система - клиент видет все таски, общаются в них.\n\n-- Общая отвественность  \nкод становится \"твоим\" как он оказался в мастере.\nлюди мотивированы проверять код\n\n--  \n",
+			"file": "/Users/lun/Dropbox/tasks/devclub.txt",
+			"file_size": 1823,
+			"file_write_time": 1341386521000000,
+			"settings":
+			{
+				"buffer_size": 1187,
+				"line_ending": "Unix",
+				"name": "Вступление"
+			}
+		},
+		{
+			"file": "/Users/lun/code/public-speaking/ny-work-trip/index.html",
+			"settings":
+			{
+				"buffer_size": 7131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4305,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"special",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"specia",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"tidy",
+				"Tidy HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Tidy",
+				"Tidy HTML"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package contro",
+				"Package Control: List Packages"
+			],
+			[
+				"ash",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lun/code/public-speaking/devclub-20.07.12/index.html",
+		"/Users/lun/Dropbox/tasks/ocenka.txt",
+		"/Users/lun/Dropbox/tasks/thai-questions.txt",
+		"/Users/lun/Documents/полет-в-таллин.txt",
+		"/Users/lun/Documents/lj-post-communication",
+		"/Users/lun/Documents/ny-post-lj",
+		"/Users/lun/Documents/ny-script-presentation",
+		"/Users/lun/Dropbox/process.odt",
+		"/Users/lun/Documents/writting-project.sublime-project",
+		"/Users/lun/Dropbox/devclub/presentation plan.txt",
+		"/Users/lun/Documents/полет-в-таллин",
+		"/Users/lun/tools/t/t.py",
+		"/Users/lun/tools/t/tests/filehandling.t"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"level",
+			"alert"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"updateScreen"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/lun/Dropbox/tasks/devclub.txt",
+					"settings":
+					{
+						"buffer_size": 1187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Вступление",
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/lun/code/public-speaking/ny-work-trip/index.html",
+					"settings":
+					{
+						"buffer_size": 7131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								289
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2561,
+								2561
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1228.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/lun/code/public-speaking/ny-work-trip/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/lun/code/blog/blog.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true
+}
