@@ -49,161 +49,182 @@
 
 			<section>
 				<section>
-					<h2>Код ревью?</h2>
-					<p class="fragment">То, что часто пропускают, если присутсвуют сжатые сроки</p>
+					<h1>Код ревью?</h1>
+					<h2 class="fragment">То, что часто пропускают, если присутсвуют сжатые сроки</h2>
 				</section>
 				<section>
-					<h2>Этика?</h2>
-					<p class="fragment">Правила, порождённые совместным общежитием, нормы, сплачивающие общество, преодоление индивидуализма и агрессивности</p>
+					<h1>Этика?</h1>
+					<h2 class="fragment">нормы, сплачивающие общество, преодоление индивидуализма и агрессивности</h2>
 				</section>
 			</section>
 
 			<section> 
 				<h2>люди > технологии</h2>
+				<img width="550" src="img/people.jpg">
+
+				<!-- Заполнить пустое пространство картинкой -->
 			</section>
 
 			<section>
 				<section><h2>Мир становится открытым... </h2>
 					<p>...пора и нам учиться открыто общаться друг с другом</p>
+
+					<!-- Скриншот с видео ?-->
 					<p><a href="http://www.ted.com/talks/don_tapscott_four_principles_for_the_open_world_1.html">Don Tapscott "Four principles for the open world"</a></p>
 				</section>
 				
 				<section>
+					<h2>заветы Сталина</h2>
 					<UL>
-						<li>Делитесь опытом со всеми</li>
+						<li>Делитесь опытом</li>
 						<li>Рассказывайте людям чем вы занимаетесь</li>
-						<li>Общайтесь с клиентом как с коллегой</li>
+						<li>Реагируйте разумно на критику</li>
 					</UL>
 				</section>
 			</section>
 
 			<section>
-				<h2>Общая отвественность</h2>
+				<h2>Общая ответственность</h2>
 				<p><img src="img/blame_everyone.jpg"></p>
 			</section>
 
 			<section>
 				<section>
 					<h2>Commit early, commit often</h2>
-					<div><ul>
-						<li>added comments to blog posts</li>
-					</ul></div>
-					<div><h2>vs</h2></div>
-					<div><ul>
-						<li>added edit/delete links to each comment if user has permissions</li>
-						<li>allowed admins to edit/update/delete any comments</li>
-						<li>restricted edit/update/delete actions to user's own comments</li>
-						<li>created controller/views</li>
-						<li>made comments nestable in the model</li>
-						<li>defined activerecord associations among users, posts, and comments</li>
-						<li>added base comment model and migrations</li>
-					</ul></div>
-				</section>
-				<section>
-					<ul>
-						<li>Делайте маленькие коммиты</li>
-						<li>Не мешайте в одну кучу функциональные и дизайн изменения</li>
-						<li>Пишите понятные коммит сообщения</li>
-						<li>Пушайте код на публику каждые 24 часа</li>
-					</ul>
-				</section>
-				
-			</section>
+					<!-- class = 'fragment' --> 
 
-			<section>
-				<h2>Continuous Code Review</h2>
-				<p>Проверяйте каждый коммит прежде чем изменения попадут в мастер бранч</p>
-			</section>
+					<pre><code contenteditable> Author: Wally  
+Date:   Tue Feb 29 23:58:05 2011 -0600  
 
-			<section>
-				<img src="img/git_jenkins_gerrit.png" height="500">
-			</section>
+added comments to blog posts</code></pre>
+						<h2 class="fragment">vs</h2>
+						<pre class='fragment'><code contenteditable>Author: Alice  
+Date:   Tue Feb 29 14:58:05 2011 -0600  
 
-			<section>
-				<section>
-					<h2>Gerrit</h2>
-					<p>
+added edit/delete links to each comment if user has permissions  
+
+Author: Alice  
+Date:   Tue Feb 29 13:58:05 2011 -0600  
+
+allowed admins to edit/update/delete any comments  
+
+Author: Alice  
+Date:   Tue Feb 29 11:58:05 2011 -0600  
+
+restricted edit/update/delete actions to user's own comments  
+
+Author: Alice  
+Date:   Tue Feb 29 11:36:20 2011 -0600  
+
+created controller/views  </code></pre>
+						</section>
+						<section>
+
+							<!-- title is missing -->
+							<ul>
+								<li>Делайте маленькие коммиты</li>
+								<li>Не мешайте в один коммит функциональные и дизайн изменения</li>
+								<li>Пишите понятные коммит сообщения</li>
+								<li>Показывайте код каждые 24 часа</li>
+							</ul>
+						</section>
+					</section>
+
+					<section>
+						<img src="img/git_jenkins_gerrit.png" height="500">
+					</section>
+
+					<section>
+						<h2>Continuous Code Review</h2>
+						<img height="400" src="img/code_review.png">
+						<p>Проверяйте каждый коммит прежде чем изменения попадут в мастер</p>
+					</section>
+
+					<section>
+						<section>
+							<h2>Gerrit</h2>
+							<p>
+								<ul>
+									<li>Работает только с Git репозиториями</li>
+									<li class='fragment'>Интеграция с Gitweb</li>
+									<li class='fragment'>Интеграция с jenkins</li>
+								</ul>
+							</p>
+						</section>
+						<section>
+							<img src="img/gerrit_workflow.png" >
+						</section>	
+						<section>
+							<img src="img/gerrit_data.png" >
+						</section>
+
+					</section>
+
+					<section>
+						<section>
+							<h2>jenkins</h2>
+							<UL>
+								<li>Установить <a href="https://wiki.jenkins-ci.org/display/JENKINS/Gerrit+Plugin">Gerrit Plugin</a></li>
+								<li>Установить <a href="https://wiki.jenkins-ci.org/display/JENKINS/Gerrit+Trigger">Gerrit Trigger Plugin</a></li>
+								<li>Создайте Jenkins пользователя в Gerrit</li>
+								<li>Создайте джобу</li>
+								<li>Создайте Gerrit Trigger</li>
+							</UL>
+						</section>
+
+						<section>
+							<img src="img/jenkins_workflow.png">
+						</section>
+
+						<section>
+							<h2> Что проверяем? </h2>
+							<UL>
+								<li>Lint</li>
+								<li>Static Code Analyzers</li>
+								<li>Coding guidelines</li>
+								<li>Unit testing</li>
+								<li>Functional / Intergration testing</li>
+							</UL>
+						</section>
+					</section>
+
+					<section>
+						<h2>Outline</h2>
 						<ul>
-							<li>Работает только с Git репозиториями</li>
-							<li>Интеграция с Gitweb</li>
-							<li>Интеграция с jenkins</li>
+							<li>Вопрос "код ревью" не решается вводом нового инструмента</li>
+							<li>Этический аспект создает большинство проблем</li>
+							<li>Jenkins поощеряет публичный код</li>
 						</ul>
-					</p>
-				</section>
-				<section>
-					<img src="img/gerrit_workflow.png" >
-				</section>	
-				<section>
-					<img src="img/gerrit_data.png" >
 
-				</section>
+					</section>
 
-			</section>
+					<section>
+						<h1>Спасибо за внимание</h1>
+						<p> Презентацию можно найти на <a href="http://www.github.com/skatkov">http://www.github.com/skatkov</a></p>
+					</section>
 
-			<section>
-				<section>
-					<h2>jenkins</h2>
-					<UL>
-						<li><a href="https://wiki.jenkins-ci.org/display/JENKINS/Gerrit+Plugin">Gerrit Plugin</a></li>
-						<li><a href="https://wiki.jenkins-ci.org/display/JENKINS/Gerrit+Trigger">Gerrit Trigger Plugin</a></li>
-						<li>Создайте Jenkins пользователя в Gerrit</li>
-						<li>Создайте джобу</li>
-						<li>Создайте Gerrit Trigger</li>
-					</UL>
-				</section>
+				</div>
 
-				<section>
-					<img src="img/jenkins_workflow.png">
-				</section>
+				<!-- The navigational controls UI -->
+				<aside class="controls">
+					<a class="left" href="#">&#x25C4;</a>
+					<a class="right" href="#">&#x25BA;</a>
+					<a class="up" href="#">&#x25B2;</a>
+					<a class="down" href="#">&#x25BC;</a>
+				</aside>
 
-				<section>
-					<UL>
-						<li>Lint</li>
-						<li>Static Code Analyzers</li>
-						<li>Coding guidelines</li>
-						<li>Unit testing</li>
-						<li>Functional and/or Intergration testing</li>
-					</UL>
-				</section>
-			</section>
+				<!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
+				<div class="progress"><span></span></div>
 
-			<section>
-				<h2>Выводы</h2>
-				<ul>
-					<li>Увеличим 'bus factor'</li>
-					<li>Помогает спать спокойней</li>
-					<li>Улучшает понимание всего кода</li>
-				</ul>
+			</div>
 
-			</section>
+			<!-- Optional libraries for code syntax highlighting and classList support in IE9 -->
+			<!-- <script src="lib/highlight.js"></script> -->
+			<script src="lib/classList.js"></script>
 
-			<section>
-				<h1>Спасибо за внимание</h1>
-				<p> Презентацию можно найти на <a href="http://www.github.com/skatkov">http://www.github.com/skatkov</a></p>
-			</section>
+			<script src="js/reveal.js"></script>
 
-		</div>
-
-		<!-- The navigational controls UI -->
-		<aside class="controls">
-			<a class="left" href="#">&#x25C4;</a>
-			<a class="right" href="#">&#x25BA;</a>
-			<a class="up" href="#">&#x25B2;</a>
-			<a class="down" href="#">&#x25BC;</a>
-		</aside>
-
-		<!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
-		<div class="progress"><span></span></div>
-
-	</div>
-
-	<!-- Optional libraries for code syntax highlighting and classList support in IE9 -->
-	<!-- <script src="lib/highlight.js"></script> -->
-	<script src="lib/classList.js"></script>
-
-	<script src="js/reveal.js"></script>
-
-	<script>
+			<script>
 			// Parse the query string into a key/value object
 			var query = {};
 			location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
